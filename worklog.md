@@ -1,6 +1,37 @@
 ---
 ---
 
+# 2015-02-10
+
+* Wrote today's fott
+* Weekly meeting
+* [Expressed my opinion about array pattern simplification](https://github.com/rust-lang/rfcs/pull/495)
+* [Posted meeting minutes](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-02-10.md)
+* [Posted meeting minute thread](http://internals.rust-lang.org/t/weekly-meetings-2015-02-10-fott-unsafe-no-drop-flag-box-rfc-fallout-unused-attribute-feature-gate-sizeof-alignof-array-patterns/1578)
+* [Re-reviewed bitrig PR](https://github.com/rust-lang/rust/pull/21959)
+* [Reviewed fix for ffi ICEs](https://github.com/rust-lang/rust/pull/22160)
+* Cleaned up rust-installer and made its backups work consistently
+
+# 2015-02-09
+
+* [Posted twir](https://www.reddit.com/r/rust/comments/2vc05d/this_week_in_rust_69/)
+* [Filled out status report](http://benjamin.smedbergs.us/weekly-updates.fcgi/user/banderson%40mozilla.com)
+* [Replied to thread about coding standards](https://www.reddit.com/r/rust/comments/2vc63z/with_10_around_the_corner_is_there_a_place_to/)
+* [Responded to some multirust issue](https://github.com/brson/multirust/issues/27)
+* [Responded to pnkfelix about RFC features](https://github.com/rust-lang/rfcs/pull/815)
+* More work on rust-installer
+
+# 2015-02-08
+
+* twir
+* [Asked for rebase of bitrig patch](https://github.com/rust-lang/rust/pull/21959)
+* [Reviewed test tweaks](https://github.com/rust-lang/rust/pull/21862)
+
+# 2015-02-07
+
+* [Filed a bug about debugging extern fns](https://github.com/rust-lang/rust/issues/22071)
+* Working on OpenSSL impl
+
 # 2015-02-06
 
 * [Responded to 1.0 bugs issue on internals](http://internals.rust-lang.org/t/a-list-of-high-priority-but-borderline-1-0-bugs-that-need-attention/1550/5?u=brson)
