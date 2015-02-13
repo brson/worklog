@@ -1,6 +1,51 @@
 ---
 ---
 
+# 2015-02-12
+
+* [Complimented RustAudio](https://www.reddit.com/r/rust/comments/2vn0xx/rustaudio_a_collection_of_crates_for_audio_and/)
+* [Emailed the person from Codius with words of encouragement](https://codius.org/blog/codius-rust/)
+* [Responded to Process not Send on Windows thread](https://www.reddit.com/r/rust/comments/2vmzmh/coremarkersend_difference_mac_vs_windows/)
+* [Promised to look into HTTPS on discourse](http://users.rust-lang.org/t/secure-access-via-https/296)
+* Asked Neil from Discourse about HTTPS
+* [Responded to OS X 10.5 q](http://users.rust-lang.org/t/rust-on-mac-os-10-5-8/304/3)
+* [Responded to thread about platform-specific APIs in std](http://internals.rust-lang.org/t/what-rate-of-importability-do-we-allow-in-libstd/1556)
+* Attended Rust triage
+* Triaged a few I-compiletime issues
+* [Reviewed ammendments to object safety RFC](https://github.com/rust-lang/rfcs/pull/817)
+* Got OS X .pkg working with component selection and uninstallation
+* Got .exe and .msi working with new installer
+* Created new EC2 AMI for windows with WIX
+* Added new windows AMI's to buildbot config. Waiting to restart buildbot.
+* [Updated multirust for rust-installer](https://github.com/brson/multirust/commit/095e540026824e0e047f7325b9fcd5959fb9aeec)
+* [Closed old build system issue](https://github.com/rust-lang/rust/issues/12363)
+* [Added a --without flag to rust-installer](https://github.com/rust-lang/rust-installer/commit/60fd8abfcae50629a3fc664bd809238fed039617)
+* [Filed multirust issue about slow blastoff script](https://github.com/brson/multirust/issues/29)
+* [Filed PR for Rust rust-installer upgrade](https://github.com/rust-lang/rust/pull/22256)
+* [Filed PR for Cargo rust-installer upgrade](https://github.com/rust-lang/cargo/pull/1301)
+* [Filed PR for rust-packaging rust-installer upgrade](https://github.com/rust-lang/rust-packaging/pull/11)
+* [Updated rust-buildbot to enable .msi](https://github.com/rust-lang/rust-buildbot/commit/ff9022c9c8be047152d5cf01a22a6b5408738a4e)
+* Restarted buildbot for .msi
+* [Updated .msi issue](https://github.com/rust-lang/rust/issues/21118#issuecomment-74205873)
+* [Tightened up description of 1.0.0-alpha on rust-www](https://github.com/rust-lang/rust-www/pull/95)
+
+# 2015-02-11
+
+* [Responded to questions about no_std gating](https://www.reddit.com/r/rust/comments/2vc05d/this_week_in_rust_69/coibg28)
+* Obsoleted --disable-verify flag to rust-installer
+* Improved error handling in rust-installer
+* Upgraded rust-installer for rust, cargo, rust-packaging, multirust
+* [Posted rust-installer upgrades](https://github.com/rust-lang/rust-installer/pull/20)
+* [Updated rust-installer readme](https://github.com/rust-lang/rust-installer/commit/5bd23c2845a11856f6bc14b61c9ea963656731d9)
+* Pointed out the Samsung OSG position to some people
+* Responded to dhuseby about bitrig PR
+* Responded to Packt telling them I'll review their book
+* [Voiced approval for from_elem RFC](https://github.com/rust-lang/rfcs/pull/832#issuecomment-73989469)
+* Submitted expense report for users.rust-lang.org
+* Pinged jhford about global CI
+* [Posted PR to solve --version date confusion](https://github.com/rust-lang/rust/pull/22201)
+* [Likewise a Cargo PR for --version](https://github.com/rust-lang/cargo/pull/1292)
+
 # 2015-02-10
 
 * Wrote today's fott
