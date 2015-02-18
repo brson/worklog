@@ -1,6 +1,91 @@
 ---
 ---
 
+# 2015-02-17
+
+* [Responded to DroidLogician about office visits](https://www.reddit.com/r/rust/comments/2w6rrk/im_going_to_be_in_sf_in_april_for_a_convention_is/cooewtk)
+* [Filed issue about security policy](https://github.com/rust-lang/rust/issues/22464)
+* Responded to a person looking to contribute to Rust
+* Working on problem with CentOS linux builders checking out deep submodules
+* Recompiled git from master on the CentOS linux-snap builders
+* Reimaged linux-snap builders
+* Updated slave-list.txt on prod and dev build masters
+* acrichto volunteered to restart buildmaster
+* Started build of nightlies with new installer
+* Started build of nightly combined package with new installer
+* [Commented on recycling slaves](https://github.com/rust-lang/rust/issues/22448)
+* [Posted meeting minutes](http://internals.rust-lang.org/t/weekly-meetings-2015-02-17-fott-security-bugs-code-completion-open-ended-proposals-struct-syntax-alpha2-integer-suffixes-overflow/1608/1)
+
+# 2015-02-16
+
+* Gave michaelwoerister r+ for debuginfo
+* [Reviewed string matching RFC](https://github.com/rust-lang/rfcs/pull/528)
+* [Reviewed comment conventions RFC](https://github.com/rust-lang/rfcs/pull/505)
+* [Reviewed hash RFC](https://github.com/rust-lang/rfcs/pull/823)
+* [Reviewed rustup locale fix](https://github.com/rust-lang/rust/pull/22420)
+* Working on TWiR
+* [Responded to thread about 2nd tier builders](http://internals.rust-lang.org/t/community-supported-build-slaves-for-2nd-tier-platforms/1528/7)
+* [Postponed unsafe enum RFC](https://github.com/rust-lang/rfcs/pull/724)
+* [Enthused about acrichto's fixes of stability lints](https://github.com/rust-lang/rust/pull/22127)
+
+# 2015-02-15
+
+* [Made encouraging comments about Iron perf](https://www.reddit.com/r/rust/comments/2vzxjr/poor_http_performance_iron_framework/comjwyx)
+* Looked for TWiR stories
+* [Responded to concerns about bootstrapping Rust with Cargo](http://internals.rust-lang.org/t/should-cargo-be-written-in-rust/1595/4)
+* Thanked Lars for making faster builds of Rust for Servo
+* [Made some cleanups to the source README](https://github.com/rust-lang/rust/pull/22395)
+* [Reviewed kmc's macro docs](https://github.com/rust-lang/rust/pull/22393/files)
+* [Wrote encouraging things about dotdosh's miscompile fix](https://github.com/rust-lang/rust/pull/22385)
+* [Reviewed fhahn's solution to compiletest capturing output incorrectly](https://github.com/rust-lang/rust/pull/22371)
+* [Reviewed rustc_attrs feature](https://github.com/rust-lang/rust/pull/22336)
+* [Approved Cargo rust-installer upgrade](https://github.com/rust-lang/cargo/pull/1301)
+* [Merged rust-packaging upgrade](https://github.com/rust-lang/rust-packaging/pull/11)
+* [Reviewed comment patch about Vec::from_iter](https://github.com/rust-lang/rust/pull/22394)
+* [Reviewed stevek's CONTRIBUTING patches](https://github.com/rust-lang/rust/pull/22282)
+* [Responded to GSoC thread](http://www.reddit.com/r/rust/comments/2vy5n3/rust_in_gsoc_2015/com8cq3)
+* [Added rustfmt to list of gsoc projects](https://wiki.mozilla.org/Community:SummerOfCode15:Brainstorming)
+* [Expressed mild support for publishing std via cargo](http://internals.rust-lang.org/t/std-on-crates-io/1585/5?u=brson)
+
+# 2015-02-14
+
+* [Praised Trace Quest Season 5](https://www.reddit.com/r/rust/comments/2vva9y/trace_quest_5_season_1_results/colj77q)
+* [Responded to a Q about linking std to musl](https://news.ycombinator.com/item?id=9050828)
+* [Commented on Huon's expansion of `must_use` to `ok`](https://github.com/rust-lang/rust/pull/22348)
+* [Spent time working on int audit](https://github.com/rust-lang/rust/issues/22240)
+* [Reviewed rename of std::failure](https://github.com/rust-lang/rust/pull/22347)
+* [Filed uint -> usize PR](https://github.com/rust-lang/rust/pull/22350)
+* [Revised usize PR](https://github.com/rust-lang/rust/pull/22350)
+* [Stared a node.js lib for interacting with Rust infra](https://github.com/brson/rustworld)
+
+# 2015-02-13
+
+* Interviewed an intern candidate
+* [Replied to coroutine thread](http://users.rust-lang.org/t/goroutine-coroutine-or-the-similar-in-rust/327/2)
+* [Replied to most coveted features thread](http://users.rust-lang.org/t/most-coveted-rust-features/324/4)
+* [Begged people for quotes of the week for TWiR](http://users.rust-lang.org/t/twir-quote-of-the-week/328)
+* [Responded to publishing std on crates.io](http://internals.rust-lang.org/t/std-on-crates-io/1585/2)
+* [Pushed temporary disable of msi packaging](https://github.com/rust-lang/rust-packaging/commit/c183da100c025d80f685970ac0e6ee21e5852a8d)
+* Triggered rebuild of last night's failed nightlies
+* [Updated version number for alpha.2](https://github.com/rust-lang/rust/pull/22292)
+* Registered event, room, and airmo for 3/17 meetup
+* [Reviewed doc PR](https://github.com/rust-lang/rust/pull/22293)
+* [Re-reviewed bitrig PR](https://github.com/rust-lang/rust/pull/21959)
+* [Investigated dist desync issue](https://github.com/rust-lang/rust-buildbot/issues/7)
+* [Revised Rust --version PR](https://github.com/rust-lang/rust/pull/22201)
+* [Revised Cargo --version PR](https://github.com/rust-lang/cargo/pull/1292)
+* Attempting to debug wix failures on windows bots
+* [Reviewed fhahn's fixes for early termination errors](https://github.com/rust-lang/rust/pull/22117)
+* [Reviewed fhahn's parse-fail tests](https://github.com/rust-lang/rust/pull/22118)
+* [Requested retry of PR](https://github.com/rust-lang/rust/pull/21376)
+* [Reviewed test](https://github.com/rust-lang/rust/pull/22302)
+* [Reviewed int audit of std::failure](https://github.com/rust-lang/rust/pull/22303)
+* [Filed issue about incorrect naming in std::failure](https://github.com/rust-lang/rust/issues/22306)
+* [Expressed my disapproval of another stealth attribute addition](https://github.com/rust-lang/rust/pull/22278#issuecomment-74342434)
+* [Reviewed grammar docs](https://github.com/rust-lang/rust/pull/22308)
+* Responded to jhford about global CI design
+* [Submitted rustup PR for suruga](https://github.com/klutzy/suruga/pull/7)
+
 # 2015-02-12
 
 * [Complimented RustAudio](https://www.reddit.com/r/rust/comments/2vn0xx/rustaudio_a_collection_of_crates_for_audio_and/)
@@ -28,6 +113,7 @@
 * Restarted buildbot for .msi
 * [Updated .msi issue](https://github.com/rust-lang/rust/issues/21118#issuecomment-74205873)
 * [Tightened up description of 1.0.0-alpha on rust-www](https://github.com/rust-lang/rust-www/pull/95)
+* [Filed issue about unsafety of Repr](https://github.com/rust-lang/rust/issues/22260)
 
 # 2015-02-11
 
