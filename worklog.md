@@ -1,6 +1,117 @@
 ---
 ---
 
+# 2015-02-24
+
+* [Told SimonSapin how --version build date is determined](https://www.reddit.com/r/rust/comments/2wy8sr/this_week_in_rust_71/)
+* [Reviewed twir fix](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/)
+* [Reviewed twir fix](https://github.com/cmr/this-week-in-rust/pull/42)
+* [Reviewed twir fix](https://github.com/cmr/this-week-in-rust/pull/40)
+* Redeployed twir
+* [Posted status update](http://benjamin.smedbergs.us/weekly-updates.fcgi/user/banderson%40mozilla.com)
+* [Commented on nightly failures](https://www.reddit.com/r/rust/comments/2wy8sr/this_week_in_rust_71/covtic8)
+* Doing a variety of buildbot upgrades
+* [Promised pnkfelix and niko will solve a bug that affects gfx-rs and piston](https://github.com/rust-lang/rust/issues/22536#issuecomment-75880833)
+* [Responded to thread about rt rust](https://www.reddit.com/r/rust/comments/2x0h17/whats_your_killer_rust_feature/cow5kt7)
+
+# 2015-02-23
+
+* [Replied to nrc's thread about rustc APIs](https://www.reddit.com/r/rust/comments/2wwqco/a_tutorial_on_creating_a_dropin_replacement_for/)
+* [Posted another quote](http://users.rust-lang.org/t/twir-quote-of-the-week/328/8)
+* [Responded to NetBeans thread](https://www.reddit.com/r/rust/comments/2wqyip/rust_netbeans_plugin_embeds_native_rust_compiler/cov2z1j)
+* [Responded to q about grep](https://github.com/rust-lang/rust/pull/22474)
+* [Published twir](http://this-week-in-rust.org/blog/2015/02/23/this-week-in-rust-71/)
+* [Linked twir from r/rust](https://www.reddit.com/r/rust/comments/2wy8sr/this_week_in_rust_71/)
+
+# 2015-02-22
+
+* Wrote down new rust project ideas.
+* Poking at MSP430 support for rustc, needed by Contiki OS.
+* [Posted update to servo cleanup PR](https://github.com/servo/servo/pull/5026)
+* [Gave encouraging comment about netbeans plugin](https://www.reddit.com/r/rust/comments/2wqyip/rust_netbeans_plugin_embeds_native_rust_compiler/)
+* [Replied to rsync nightlies thread](http://internals.rust-lang.org/t/rsync-for-nightly-builds/1624/3)
+
+# 2015-02-21
+
+* [Dealing with lots of integration failures on windows](https://github.com/rust-lang/rust/issues/22628)
+* [Attempted to hack around the problem of stdtest hanging](https://github.com/rust-lang/rust-buildbot/commit/9911005f4df1695a6f09142c02eced4ecf04a218)
+* [Did some servo cleanup](https://github.com/servo/servo/pull/5013)
+* [Wrote rustle for installing Cargo apps](https://github.com/brson/rustle)
+* [Replied to comment on HN about non-rusties installing Rust apps](https://news.ycombinator.com/item?id=9088331)
+* [Posted rustle to HN](https://www.reddit.com/r/rust/comments/2wqgb4/rustle_install_cargo_applications_without/)
+* Restarted mac6
+* [Posted encouraging comments about exa](https://www.reddit.com/r/rust/comments/2wp3pp/ive_added_loads_more_features_to_exa_my_ls/)
+* [Reviewed typo](https://github.com/rust-lang/rust/pull/22657)
+* Spent way too much time getting Rust to compile to msp430
+
+# 2015-02-20
+
+* [Reviewed iter::once RFC](https://github.com/rust-lang/rfcs/pull/771)
+* Tested alpha.2 installers
+* [Posted cleaned up explanation of static dispatch](https://github.com/rust-lang/rust/pull/22593)
+* Tagged alpha.2 release
+* [Merged alpha.2 website updates](https://github.com/rust-lang/rust-www/pull/97)
+* [Merged alpha.2 blog post](https://github.com/rust-lang/blog.rust-lang.org/pull/25)
+* [Merged alpha.2 blog patch](https://github.com/rust-lang/blog.rust-lang.org/pull/26)
+* Pushed wiki changes for alpha.2
+* [Posted support for rust-media](https://www.reddit.com/r/rust/comments/2wl5cl/rustmedia_a_portable_media_player_framework_for/)
+* [Posted core::num audit](https://github.com/rust-lang/rust/pull/22600)
+* [Retried bitrig PR which is hitting timeouts](https://github.com/rust-lang/rust/pull/21959)
+* Replied privately to dhuseby about bitrig PR
+* [Reviewed twir PR](https://github.com/cmr/this-week-in-rust/pull/36)
+* [Rejected twir PR to clear up twir numbering ambiguity](https://github.com/cmr/this-week-in-rust/pull/32)
+* Starting on twir
+* [Responded to discourse https issue](http://users.rust-lang.org/t/secure-access-via-https/296/6)
+* Responded by email to newbie looking to contribute
+* [Reviewed fixes to blog post](https://github.com/rust-lang/blog.rust-lang.org/pull/29)
+* [Reviewed more fixes to blog post](https://github.com/rust-lang/blog.rust-lang.org/pull/30#issuecomment-75335153)
+* [And more](https://github.com/rust-lang/blog.rust-lang.org/pull/31)
+* [Commented on issue of macro internal functions](https://github.com/rust-lang/rust/issues/22607)
+* [Outlined a plan for supporting arbitrary Cargo's in multirust](https://github.com/brson/multirust/issues/27)
+* [Reviewed test case PR](https://github.com/rust-lang/rust/pull/22620)
+* Worked on some servo cleanup and commenting
+
+# 2015-02-19
+
+* Started beta build
+* [Fixed a bug in the beta windows logic in rust-packaging](https://github.com/rust-lang/rust-packaging/commit/1147e42a997ffe7b667fc032631b62fb9f283fd8)
+* Attended triage
+* [Reviewed more msi changes](https://github.com/rust-lang/rust-packaging/pull/14)
+* Responded to jhford about global ci questions
+* Sent Manish credentials to any-build on buildbot so he can kill
+  builds until I fix the bug that makes 'rust' unable to kill builds.
+* [Merged PR to add .msi downloads to rust-www](https://github.com/rust-lang/rust-www/pull/96)
+* Auditing core::num for ints
+* [Updated rust-www for alpha.2](https://github.com/rust-lang/rust-www/pull/97)
+* Updated wiki for alpha.2
+* Reading TRPL
+* [Closed issue about sudo considered harmful](https://github.com/rust-lang/rust-www/pull/76)
+* [Filed bug about trpl introduction of ownership and lifetimes](https://github.com/rust-lang/rust/issues/22553)
+* [Triaged ld incompatibility with Java](https://github.com/rust-lang/rust/issues/22528)
+* [Made some minor updates to book about strings](https://github.com/rust-lang/rust/pull/22556)
+* [Merged RFC to not put impls next to structs](https://github.com/rust-lang/rfcs/pull/735)
+
+# 2015-02-18
+
+* [Updated rust-packaging for correct alpha.2 cargo rev](https://github.com/rust-lang/rust-packaging/commit/fef2d016ab79f5b36a8b25832446f643fa0f6020)
+* Started a dry run of alpha.2
+* Finally got nightly building again
+* [Updated README cleanup PR](https://github.com/rust-lang/rust/pull/22395)
+* Bumped tomorrow's meetup guestlist to 80
+* Ordered pizza for tomorrow's meetup
+* Expensed pizza tomorrow's meetup
+* [Wrote new readme for installer](https://github.com/rust-lang/rust-packaging/pull/13)
+* [Reviewed vadim's fixes for msi](https://github.com/rust-lang/rust-packaging/pull/12)
+* [Posted PSA about broken travis builds](http://users.rust-lang.org/t/psa-travis-builds-with-language-rust-are-broken/389)
+* [Offered opinion on Int::pow](https://github.com/rust-lang/rust/pull/22087#issuecomment-74970211)
+* [Deferred to aturon on deprecating int modules](https://github.com/rust-lang/rust/pull/22503)
+* [Reviewed some cleanup](https://github.com/rust-lang/rust/pull/22509)
+* [Created a patch to make rust work on travis again](https://github.com/travis-ci/travis-build/pull/391)
+* [Updated travis PSA thread with patch link](http://users.rust-lang.org/t/psa-travis-builds-with-language-rust-are-broken/389/2)
+* [Expressed enthusiasm for njn's bloom filter wins](https://github.com/servo/servo/pull/4938)
+* [Made relnotes PR](https://github.com/rust-lang/rust/pull/22517)
+* [Reviewed `str` docs](https://github.com/rust-lang/rust/pull/22513)
+
 # 2015-02-17
 
 * [Responded to DroidLogician about office visits](https://www.reddit.com/r/rust/comments/2w6rrk/im_going_to_be_in_sf_in_april_for_a_convention_is/cooewtk)
@@ -15,6 +126,8 @@
 * Started build of nightly combined package with new installer
 * [Commented on recycling slaves](https://github.com/rust-lang/rust/issues/22448)
 * [Posted meeting minutes](http://internals.rust-lang.org/t/weekly-meetings-2015-02-17-fott-security-bugs-code-completion-open-ended-proposals-struct-syntax-alpha2-integer-suffixes-overflow/1608/1)
+* [Posted TWiR](https://www.reddit.com/r/rust/comments/2waarz/this_week_in_rust_70/)
+* [Merged TWiR fix and republished](https://github.com/cmr/this-week-in-rust/pull/39)
 
 # 2015-02-16
 
