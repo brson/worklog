@@ -1,6 +1,77 @@
 ---
 ---
 
+# 2015-03-02
+
+# 2015-03-01
+
+* Complimented Alexis on the std::collections docs
+* [Fireworked default trait PR from flaper87](https://github.com/rust-lang/rust/pull/21689#issuecomment-76636425)
+* **Working on TWiR**
+* [Thanked kballard for I/O fixes](https://github.com/rust-lang/rust/pull/22749#issuecomment-76638381)
+* Deleted 400GB of cores from mac3
+* [Bumped by TWiR quote of the week thread](http://users.rust-lang.org/t/twir-quote-of-the-week/328/10)
+
+# 2015-02-28
+
+* [Filed issue about str docs](https://www.reddit.com/r/rust/comments/2xggd2/where_are_the_docs_for_str/)
+* [Replied to __morestack_addr thread](http://users.rust-lang.org/t/why-is-my-rust-broken-26-02-2015-build/492/5)
+* [Thanked dabaross for tip about rustup](http://internals.rust-lang.org/t/rsync-for-nightly-builds/1624/7)
+* [Posted TWiR](https://www.reddit.com/r/rust/comments/2xmacv/this_week_in_rust_72/)
+
+# 2015-02-27
+
+* [Asked trink if I can publish his heka-rs prototype](https://www.reddit.com/r/rust/comments/2x5p96/would_mozilla_rewrite_heka_in_rust/coz60xo)
+* Thanked csorenson for my new laptop
+* [Made minor edits to servo paper](https://github.com/larsbergstrom/papers/pull/9)
+* Minor work on taskcluster-crater
+* [Reviewed steve's new ownership material](http://words.steveklabnik.com/a-new-introduction-to-rust)
+* **Editing Lars's ICFP Servo paper**
+* [Responded to thread about __morestack_addr](http://users.rust-lang.org/t/why-is-my-rust-broken-26-02-2015-build/492/2)
+* [Cleaned up Rust section of servo paper](https://github.com/larsbergstrom/papers/pull/21)
+* [Wrote about traits for servo paper](https://github.com/larsbergstrom/papers/pull/25)
+
+# 2015-02-26
+
+* [Responded to stability attrs on non-staged crates](https://github.com/rust-lang/rust/issues/22830)
+* [Sent nagisa a fix for s3-directory-listing](https://github.com/nagisa/s3-directory-listing/pull/1)
+* Deployed json and txt indexing for dist archives
+* Helped gbs get latest cargo nightlies
+* [Reviewed doc fix](https://github.com/rust-lang/rust/pull/22848)
+* [Replied to core bloat thread](http://users.rust-lang.org/t/fixed-overhead-rust-bootloader-and-core-panicking/429/8)
+* [Reviewed fs close](https://github.com/rust-lang/rust/pull/22849)
+* [**Added release channel code to taskcluster-crater**](https://github.com/jhford/taskcluster-crater/pull/1)
+* [Replied to heka.rs thread](https://www.reddit.com/r/rust/comments/2x5p96/would_mozilla_rewrite_heka_in_rust/)
+* [Merged rust-cocoa fixes](https://github.com/servo/rust-cocoa/pull/76)
+* [Replied to packaging policy](https://github.com/rust-lang/rust-packaging/issues/16#issuecomment-76327127)
+* [Filed issue about creating .debs](https://github.com/rust-lang/rust-packaging/issues/19)
+* [Filed issue about moving packaging into rust-installer](https://github.com/rust-lang/rust-packaging/issues/20)
+
+# 2015-02-25
+
+* [Responded to q about rt rust](https://www.reddit.com/r/rust/comments/2x0h17/whats_your_killer_rust_feature/cowz2y2)
+* [Posted list of Rust IRC channels](http://users.rust-lang.org/t/a-list-of-rust-irc-channels/472)
+* **Working on multiple buildbot fixes still**
+* [Updated meeting minutes](https://github.com/rust-lang/meeting-minutes/blob/master/weekly-meetings/2015-02-24.md)
+* [Posted meeting minutes](http://internals.rust-lang.org/t/weekly-meetings-2015-02-24-should-fail-irc-error-codes-type-ascription-triage/1659)
+* Created new Windows AMI with new build of dojob-rs
+* [Responded to servo PR feedback](https://critic.hoppipolla.co.uk/showcomment?chain=10648)
+* [Responded to multirust no-doc issue](https://github.com/brson/multirust/issues/33)
+* [Tested patch to fix who can kill builds](https://github.com/rust-lang/rust-buildbot/pull/6)
+* [Responded to thread about heka.rs](https://www.reddit.com/r/rust/comments/2x5p96/would_mozilla_rewrite_heka_in_rust/)
+* [Merged fix for killing builds in rust-buildbot](https://github.com/rust-lang/rust-buildbot/pull/9)
+* [Merged fix for rust-buildbot permissions](https://github.com/rust-lang/rust-buildbot/pull/6)
+* Deployed new rust-buildbot to production
+* Restarted mac3
+* [Closed desync issue](https://github.com/rust-lang/rust-buildbot/issues/7)
+* Restarted mac4
+* Changed pw of 'rust' buildbot user
+* [Reviewed guidelines patch](https://github.com/rust-lang/rust-guidelines/pull/44)
+* [Responded to code bloat thread](http://users.rust-lang.org/t/fixed-overhead-rust-bootloader-and-core-panicking/429/5)
+* [Pinged alex on io critique](http://internals.rust-lang.org/t/issues-in-new-i-o/1658/3)
+* Replied to Alex about missing mac slaves
+* Sent response to GSoC inquiry
+
 # 2015-02-24
 
 * [Told SimonSapin how --version build date is determined](https://www.reddit.com/r/rust/comments/2wy8sr/this_week_in_rust_71/)
@@ -13,6 +84,9 @@
 * Doing a variety of buildbot upgrades
 * [Promised pnkfelix and niko will solve a bug that affects gfx-rs and piston](https://github.com/rust-lang/rust/issues/22536#issuecomment-75880833)
 * [Responded to thread about rt rust](https://www.reddit.com/r/rust/comments/2x0h17/whats_your_killer_rust_feature/cow5kt7)
+* **Working buildbot fixes, adding dojob-rs on windows**
+* [Responded to thread about core::panicking bloat](http://users.rust-lang.org/t/fixed-overhead-rust-bootloader-and-core-panicking/429/2)
+* [Responded to thread about removed runtime features](https://www.reddit.com/r/rust/comments/2x2pon/what_significant_languageruntime_features_were/)
 
 # 2015-02-23
 
